@@ -1,0 +1,20 @@
+PODS:
+  - DJI-SDK-iOS (4.8.2)
+  - ImageDetect (1.1.4)
+
+DEPENDENCIES:
+  - DJI-SDK-iOS (~> 4.8.2)
+  - ImageDetect
+
+SPEC REPOS:
+  trunk:
+    - DJI-SDK-iOS
+    - ImageDetect
+
+SPEC CHECKSUMS:
+  DJI-SDK-iOS: 1d29d7baa1cdeb19ea490bad47cf8419ce4f1055
+  ImageDetect: cff4ef43d8cb22cb5bfdd3134f4224f637c3d372
+
+PODFILE CHECKSUM: fa514840c2cc8380b50c6b8e476b33f2c68f76ca
+
+COCOAPODS: 1.9.3

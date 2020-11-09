@@ -8,90 +8,46 @@
 
 /* Begin PBXBuildFile section */
 		6CF9F247AAD8F6FFBEC03A11 /* Pods_quarder_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3391A347601FA22B86D9591 /* Pods_quarder_app.framework */; };
-		9A4BB5BD253ED5B800A91817 /* ConnectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4BB5BC253ED5B500A91817 /* ConnectionViewController.swift */; };
+		9A312447255391C200A1C7A8 /* SpeechManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A312446255391C200A1C7A8 /* SpeechManager.swift */; };
+		9A312449255391D100A1C7A8 /* MovementManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A312448255391D100A1C7A8 /* MovementManager.swift */; };
+		9A31244C2553925300A1C7A8 /* Movement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A31244B2553925300A1C7A8 /* Movement.swift */; };
 		9A854CC4253EDE07008C9BBF /* SocketIO in Frameworks */ = {isa = PBXBuildFile; productRef = 9A854CC3253EDE07008C9BBF /* SocketIO */; };
-		9A854CC7253EE0C4008C9BBF /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A854CC6253EE0C4008C9BBF /* MainViewController.swift */; };
-		9A854CF1253EE1CD008C9BBF /* Scenar.json in Resources */ = {isa = PBXBuildFile; fileRef = 9A854CD0253EE1CC008C9BBF /* Scenar.json */; };
-		9A854CF2253EE1CD008C9BBF /* GimbalManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A854CD2253EE1CC008C9BBF /* GimbalManager.swift */; };
-		9A854CF3253EE1CD008C9BBF /* MovementLevelOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A854CD3253EE1CC008C9BBF /* MovementLevelOneViewController.swift */; };
-		9A854CF4253EE1CD008C9BBF /* TakeOffAndLandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A854CD4253EE1CC008C9BBF /* TakeOffAndLandingViewController.swift */; };
-		9A854CF6253EE1CD008C9BBF /* MobileNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 9A854CD7253EE1CC008C9BBF /* MobileNet.mlmodel */; };
-		9A854CF7253EE1CD008C9BBF /* ImageRecognition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A854CD8253EE1CC008C9BBF /* ImageRecognition.swift */; };
-		9A854CF8253EE1CD008C9BBF /* ShapeClassifier 1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 9A854CD9253EE1CC008C9BBF /* ShapeClassifier 1.mlmodel */; };
-		9A854CF9253EE1CD008C9BBF /* LocationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A854CDB253EE1CC008C9BBF /* LocationDelegate.swift */; };
-		9A854CFA253EE1CD008C9BBF /* CalibrationAndHeadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A854CDC253EE1CC008C9BBF /* CalibrationAndHeadingViewController.swift */; };
-		9A854CFB253EE1CD008C9BBF /* BasicMove.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A854CDE253EE1CC008C9BBF /* BasicMove.swift */; };
-		9A854CFC253EE1CD008C9BBF /* SpheroMovementManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A854CDF253EE1CC008C9BBF /* SpheroMovementManager.swift */; };
-		9A854CFD253EE1CD008C9BBF /* SparkMovementManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A854CE0253EE1CC008C9BBF /* SparkMovementManager.swift */; };
-		9A854CFE253EE1CD008C9BBF /* GenericMovementManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A854CE1253EE1CC008C9BBF /* GenericMovementManager.swift */; };
-		9A854CFF253EE1CD008C9BBF /* TP1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A854CE2253EE1CC008C9BBF /* TP1ViewController.swift */; };
-		9A854D00253EE1CD008C9BBF /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A854CE3253EE1CC008C9BBF /* CameraViewController.swift */; };
-		9A854D01253EE1CD008C9BBF /* ProductCommunicationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A854CE5253EE1CC008C9BBF /* ProductCommunicationManager.swift */; };
-		9A854D02253EE1CD008C9BBF /* Spark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A854CE7253EE1CD008C9BBF /* Spark.swift */; };
-		9A854D03253EE1CD008C9BBF /* DirectionSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A854CE9253EE1CD008C9BBF /* DirectionSequence.swift */; };
-		9A854D04253EE1CD008C9BBF /* Movement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A854CEA253EE1CD008C9BBF /* Movement.swift */; };
-		9A854D05253EE1CD008C9BBF /* MovingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A854CEB253EE1CD008C9BBF /* MovingManager.swift */; };
-		9A854D06253EE1CD008C9BBF /* CGPoints+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A854CEC253EE1CD008C9BBF /* CGPoints+Extensions.swift */; };
-		9A854D07253EE1CD008C9BBF /* AutoMoveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A854CED253EE1CD008C9BBF /* AutoMoveViewController.swift */; };
-		9A854D08253EE1CD008C9BBF /* AccelerometerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A854CEE253EE1CD008C9BBF /* AccelerometerViewController.swift */; };
-		9A854D47253EE1F9008C9BBF /* LocatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A854D0C253EE1F8008C9BBF /* LocatorViewController.swift */; };
-		9A854D48253EE1F9008C9BBF /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A854D0E253EE1F8008C9BBF /* GraphView.swift */; };
-		9A854D49253EE1F9008C9BBF /* CGContext+GraphLines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A854D0F253EE1F8008C9BBF /* CGContext+GraphLines.swift */; };
-		9A854D4A253EE1F9008C9BBF /* GraphSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A854D10253EE1F8008C9BBF /* GraphSegment.swift */; };
-		9A854D4B253EE1F9008C9BBF /* SpheroStatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A854D11253EE1F8008C9BBF /* SpheroStatusViewController.swift */; };
-		9A854D4C253EE1F9008C9BBF /* SharedToyBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A854D13253EE1F8008C9BBF /* SharedToyBox.swift */; };
-		9A854D4D253EE1F9008C9BBF /* SDKUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A854D15253EE1F8008C9BBF /* SDKUtils.swift */; };
-		9A854D4E253EE1F9008C9BBF /* Toy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A854D18253EE1F8008C9BBF /* Toy.swift */; };
-		9A854D4F253EE1F9008C9BBF /* SensorControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A854D19253EE1F8008C9BBF /* SensorControl.swift */; };
-		9A854D50253EE1F9008C9BBF /* SPRKToy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A854D1B253EE1F8008C9BBF /* SPRKToy.swift */; };
-		9A854D51253EE1F9008C9BBF /* SensorControlV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A854D1C253EE1F8008C9BBF /* SensorControlV1.swift */; };
-		9A854D52253EE1F9008C9BBF /* SpheroV1Toy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A854D1D253EE1F8008C9BBF /* SpheroV1Toy.swift */; };
-		9A854D53253EE1F9008C9BBF /* SpheroV1ToyCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A854D1E253EE1F8008C9BBF /* SpheroV1ToyCore.swift */; };
-		9A854D54253EE1F9008C9BBF /* BB8Toy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A854D1F253EE1F8008C9BBF /* BB8Toy.swift */; };
-		9A854D55253EE1F9008C9BBF /* SensorControlV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A854D21253EE1F8008C9BBF /* SensorControlV2.swift */; };
-		9A854D56253EE1F9008C9BBF /* BB9EToy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A854D22253EE1F8008C9BBF /* BB9EToy.swift */; };
-		9A854D57253EE1F9008C9BBF /* SpheroV2Toy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A854D23253EE1F8008C9BBF /* SpheroV2Toy.swift */; };
-		9A854D58253EE1F9008C9BBF /* BoltToy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A854D24253EE1F8008C9BBF /* BoltToy.swift */; };
-		9A854D59253EE1F9008C9BBF /* R2D2Toy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A854D25253EE1F8008C9BBF /* R2D2Toy.swift */; };
-		9A854D5A253EE1F9008C9BBF /* SpheroV2ToyCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A854D26253EE1F9008C9BBF /* SpheroV2ToyCore.swift */; };
-		9A854D5B253EE1F9008C9BBF /* MiniToy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A854D27253EE1F9008C9BBF /* MiniToy.swift */; };
-		9A854D5C253EE1F9008C9BBF /* ToyProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A854D28253EE1F9008C9BBF /* ToyProtocols.swift */; };
-		9A854D5D253EE1F9008C9BBF /* CBUUID+SpheroUUIDs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A854D29253EE1F9008C9BBF /* CBUUID+SpheroUUIDs.swift */; };
-		9A854D5E253EE1F9008C9BBF /* ToyBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A854D2B253EE1F9008C9BBF /* ToyBox.swift */; };
-		9A854D5F253EE1F9008C9BBF /* Color+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A854D2C253EE1F9008C9BBF /* Color+Utils.swift */; };
-		9A854D60253EE1F9008C9BBF /* SensorUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A854D2E253EE1F9008C9BBF /* SensorUtils.swift */; };
-		9A854D61253EE1F9008C9BBF /* CommandOperationV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A854D30253EE1F9008C9BBF /* CommandOperationV2.swift */; };
-		9A854D62253EE1F9008C9BBF /* CommandSequencerV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A854D31253EE1F9008C9BBF /* CommandSequencerV2.swift */; };
-		9A854D63253EE1F9008C9BBF /* CommandV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A854D32253EE1F9008C9BBF /* CommandV2.swift */; };
-		9A854D64253EE1F9008C9BBF /* VersionsCommandResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A854D34253EE1F9008C9BBF /* VersionsCommandResponse.swift */; };
-		9A854D65253EE1F9008C9BBF /* ShouldActionCompleteResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A854D35253EE1F9008C9BBF /* ShouldActionCompleteResponse.swift */; };
-		9A854D66253EE1F9008C9BBF /* SensorCommandResponseV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A854D36253EE1F9008C9BBF /* SensorCommandResponseV2.swift */; };
-		9A854D67253EE1F9008C9BBF /* SensorCommandResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A854D37253EE1F9008C9BBF /* SensorCommandResponse.swift */; };
-		9A854D68253EE1F9008C9BBF /* SensorMaskCommandResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A854D38253EE1F9008C9BBF /* SensorMaskCommandResponse.swift */; };
-		9A854D69253EE1F9008C9BBF /* PowerStateResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A854D39253EE1F9008C9BBF /* PowerStateResponse.swift */; };
-		9A854D6A253EE1F9008C9BBF /* CollisionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A854D3A253EE1F9008C9BBF /* CollisionData.swift */; };
-		9A854D6B253EE1F9008C9BBF /* CommandV1Operation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A854D3C253EE1F9008C9BBF /* CommandV1Operation.swift */; };
-		9A854D6C253EE1F9008C9BBF /* CommandV1Sequencer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A854D3D253EE1F9008C9BBF /* CommandV1Sequencer.swift */; };
-		9A854D6D253EE1F9008C9BBF /* CommandV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A854D3E253EE1F9008C9BBF /* CommandV1.swift */; };
-		9A854D6E253EE1F9008C9BBF /* Double+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A854D3F253EE1F9008C9BBF /* Double+Utils.swift */; };
-		9A854D6F253EE1F9008C9BBF /* String+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A854D40253EE1F9008C9BBF /* String+Utils.swift */; };
-		9A854D70253EE1F9008C9BBF /* SpheroTP1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A854D42253EE1F9008C9BBF /* SpheroTP1ViewController.swift */; };
-		9A854D71253EE1F9008C9BBF /* SpheroLedsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A854D43253EE1F9008C9BBF /* SpheroLedsViewController.swift */; };
-		9A854D73253EE1F9008C9BBF /* SpheroDirectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A854D45253EE1F9008C9BBF /* SpheroDirectionViewController.swift */; };
-		9A854D74253EE1F9008C9BBF /* SpheroAimingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A854D46253EE1F9008C9BBF /* SpheroAimingViewController.swift */; };
 		9A854D7E253EE35D008C9BBF /* VideoPreviewer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A854D7B253EE34F008C9BBF /* VideoPreviewer.framework */; };
 		9A854D7F253EE35D008C9BBF /* VideoPreviewer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9A854D7B253EE34F008C9BBF /* VideoPreviewer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		9A854D89253EFA9D008C9BBF /* SocketIOManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A854D88253EFA9D008C9BBF /* SocketIOManager.swift */; };
 		9A854D8F253F0169008C9BBF /* UIImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A854D8E253F0169008C9BBF /* UIImageExtensions.swift */; };
 		9A854D91253F0182008C9BBF /* UIViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A854D90253F0182008C9BBF /* UIViewControllerExtensions.swift */; };
 		9A854D93253F01D1008C9BBF /* delay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A854D92253F01D1008C9BBF /* delay.swift */; };
 		9A854D95253F01E5008C9BBF /* getDocumentsDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A854D94253F01E5008C9BBF /* getDocumentsDirectory.swift */; };
+		9A854EF0253F18D4008C9BBF /* ConnectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A854EEF253F18D4008C9BBF /* ConnectionViewController.swift */; };
 		9A91D2EC253C7D1900C89716 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A91D2EB253C7D1900C89716 /* AppDelegate.swift */; };
 		9A91D2EE253C7D1900C89716 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A91D2ED253C7D1900C89716 /* SceneDelegate.swift */; };
-		9A91D2F0253C7D1900C89716 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A91D2EF253C7D1900C89716 /* ViewController.swift */; };
 		9A91D2F3253C7D1900C89716 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A91D2F1253C7D1900C89716 /* Main.storyboard */; };
 		9A91D2F5253C7D1A00C89716 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A91D2F4253C7D1A00C89716 /* Assets.xcassets */; };
 		9A91D2F8253C7D1A00C89716 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A91D2F6253C7D1A00C89716 /* LaunchScreen.storyboard */; };
+		9AB5FB25255234F900DA5663 /* SaveImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB5FB24255234F900DA5663 /* SaveImageViewController.swift */; };
+		9AB5FB4E255246B400DA5663 /* Scenar.json in Resources */ = {isa = PBXBuildFile; fileRef = 9AB5FB2B255246B400DA5663 /* Scenar.json */; };
+		9AB5FB4F255246B400DA5663 /* GimbalManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB5FB2D255246B400DA5663 /* GimbalManager.swift */; };
+		9AB5FB53255246B400DA5663 /* quarder_model 2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 9AB5FB32255246B400DA5663 /* quarder_model 2.mlmodel */; };
+		9AB5FB55255246B400DA5663 /* ImageRecognition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB5FB34255246B400DA5663 /* ImageRecognition.swift */; };
+		9AB5FB58255246B400DA5663 /* LocationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB5FB38255246B400DA5663 /* LocationDelegate.swift */; };
+		9AB5FB59255246B400DA5663 /* CalibrationAndHeadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB5FB39255246B400DA5663 /* CalibrationAndHeadingViewController.swift */; };
+		9AB5FB5A255246B400DA5663 /* BasicMove.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB5FB3B255246B400DA5663 /* BasicMove.swift */; };
+		9AB5FB5C255246B400DA5663 /* SparkMovementManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB5FB3D255246B400DA5663 /* SparkMovementManager.swift */; };
+		9AB5FB5D255246B400DA5663 /* GenericMovementManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB5FB3E255246B400DA5663 /* GenericMovementManager.swift */; };
+		9AB5FB5E255246B400DA5663 /* TP1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB5FB3F255246B400DA5663 /* TP1ViewController.swift */; };
+		9AB5FB5F255246B400DA5663 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB5FB40255246B400DA5663 /* CameraViewController.swift */; };
+		9AB5FB60255246B400DA5663 /* SpeechViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB5FB41255246B400DA5663 /* SpeechViewController.swift */; };
+		9AB5FB61255246B400DA5663 /* ProductCommunicationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB5FB43255246B400DA5663 /* ProductCommunicationManager.swift */; };
+		9AB5FB62255246B400DA5663 /* Spark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB5FB45255246B400DA5663 /* Spark.swift */; };
+		9AB5FB63255246B400DA5663 /* DirectionSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB5FB47255246B400DA5663 /* DirectionSequence.swift */; };
+		9AB5FB64255246B400DA5663 /* OldMovement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB5FB48255246B400DA5663 /* OldMovement.swift */; };
+		9AB5FB65255246B400DA5663 /* MovingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB5FB49255246B400DA5663 /* MovingManager.swift */; };
+		9AB5FB66255246B400DA5663 /* CGPoints+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB5FB4A255246B400DA5663 /* CGPoints+Extensions.swift */; };
+		9AB5FB67255246B400DA5663 /* AutoMoveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB5FB4B255246B400DA5663 /* AutoMoveViewController.swift */; };
+		9AB5FB68255246B400DA5663 /* AccelerometerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB5FB4C255246B400DA5663 /* AccelerometerViewController.swift */; };
+		9AB5FB862553837A00DA5663 /* FlightModeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB5FB852553837A00DA5663 /* FlightModeViewController.swift */; };
+		9AB5FB8825538B1800DA5663 /* ManualFlightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB5FB8725538B1800DA5663 /* ManualFlightViewController.swift */; };
+		9AB5FB8A25538B2500DA5663 /* AutoFlightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB5FB8925538B2500DA5663 /* AutoFlightViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -110,90 +66,46 @@
 
 /* Begin PBXFileReference section */
 		542E0C6C4CD98C70CD39B354 /* Pods-quarder-app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-quarder-app.debug.xcconfig"; path = "Target Support Files/Pods-quarder-app/Pods-quarder-app.debug.xcconfig"; sourceTree = "<group>"; };
-		9A4BB5BC253ED5B500A91817 /* ConnectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionViewController.swift; sourceTree = "<group>"; };
-		9A854CC6253EE0C4008C9BBF /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		9A854CD0253EE1CC008C9BBF /* Scenar.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Scenar.json; sourceTree = "<group>"; };
-		9A854CD2253EE1CC008C9BBF /* GimbalManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GimbalManager.swift; sourceTree = "<group>"; };
-		9A854CD3253EE1CC008C9BBF /* MovementLevelOneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovementLevelOneViewController.swift; sourceTree = "<group>"; };
-		9A854CD4253EE1CC008C9BBF /* TakeOffAndLandingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TakeOffAndLandingViewController.swift; sourceTree = "<group>"; };
-		9A854CD7253EE1CC008C9BBF /* MobileNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNet.mlmodel; sourceTree = "<group>"; };
-		9A854CD8253EE1CC008C9BBF /* ImageRecognition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageRecognition.swift; sourceTree = "<group>"; };
-		9A854CD9253EE1CC008C9BBF /* ShapeClassifier 1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "ShapeClassifier 1.mlmodel"; sourceTree = "<group>"; };
-		9A854CDB253EE1CC008C9BBF /* LocationDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationDelegate.swift; sourceTree = "<group>"; };
-		9A854CDC253EE1CC008C9BBF /* CalibrationAndHeadingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalibrationAndHeadingViewController.swift; sourceTree = "<group>"; };
-		9A854CDE253EE1CC008C9BBF /* BasicMove.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicMove.swift; sourceTree = "<group>"; };
-		9A854CDF253EE1CC008C9BBF /* SpheroMovementManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpheroMovementManager.swift; sourceTree = "<group>"; };
-		9A854CE0253EE1CC008C9BBF /* SparkMovementManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SparkMovementManager.swift; sourceTree = "<group>"; };
-		9A854CE1253EE1CC008C9BBF /* GenericMovementManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericMovementManager.swift; sourceTree = "<group>"; };
-		9A854CE2253EE1CC008C9BBF /* TP1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TP1ViewController.swift; sourceTree = "<group>"; };
-		9A854CE3253EE1CC008C9BBF /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
-		9A854CE5253EE1CC008C9BBF /* ProductCommunicationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductCommunicationManager.swift; sourceTree = "<group>"; };
-		9A854CE7253EE1CD008C9BBF /* Spark.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Spark.swift; sourceTree = "<group>"; };
-		9A854CE9253EE1CD008C9BBF /* DirectionSequence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DirectionSequence.swift; sourceTree = "<group>"; };
-		9A854CEA253EE1CD008C9BBF /* Movement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movement.swift; sourceTree = "<group>"; };
-		9A854CEB253EE1CD008C9BBF /* MovingManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovingManager.swift; sourceTree = "<group>"; };
-		9A854CEC253EE1CD008C9BBF /* CGPoints+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGPoints+Extensions.swift"; sourceTree = "<group>"; };
-		9A854CED253EE1CD008C9BBF /* AutoMoveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoMoveViewController.swift; sourceTree = "<group>"; };
-		9A854CEE253EE1CD008C9BBF /* AccelerometerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccelerometerViewController.swift; sourceTree = "<group>"; };
-		9A854D0C253EE1F8008C9BBF /* LocatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocatorViewController.swift; sourceTree = "<group>"; };
-		9A854D0E253EE1F8008C9BBF /* GraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
-		9A854D0F253EE1F8008C9BBF /* CGContext+GraphLines.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGContext+GraphLines.swift"; sourceTree = "<group>"; };
-		9A854D10253EE1F8008C9BBF /* GraphSegment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphSegment.swift; sourceTree = "<group>"; };
-		9A854D11253EE1F8008C9BBF /* SpheroStatusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpheroStatusViewController.swift; sourceTree = "<group>"; };
-		9A854D13253EE1F8008C9BBF /* SharedToyBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharedToyBox.swift; sourceTree = "<group>"; };
-		9A854D15253EE1F8008C9BBF /* SDKUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDKUtils.swift; sourceTree = "<group>"; };
-		9A854D18253EE1F8008C9BBF /* Toy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toy.swift; sourceTree = "<group>"; };
-		9A854D19253EE1F8008C9BBF /* SensorControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SensorControl.swift; sourceTree = "<group>"; };
-		9A854D1B253EE1F8008C9BBF /* SPRKToy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPRKToy.swift; sourceTree = "<group>"; };
-		9A854D1C253EE1F8008C9BBF /* SensorControlV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SensorControlV1.swift; sourceTree = "<group>"; };
-		9A854D1D253EE1F8008C9BBF /* SpheroV1Toy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpheroV1Toy.swift; sourceTree = "<group>"; };
-		9A854D1E253EE1F8008C9BBF /* SpheroV1ToyCore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpheroV1ToyCore.swift; sourceTree = "<group>"; };
-		9A854D1F253EE1F8008C9BBF /* BB8Toy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BB8Toy.swift; sourceTree = "<group>"; };
-		9A854D21253EE1F8008C9BBF /* SensorControlV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SensorControlV2.swift; sourceTree = "<group>"; };
-		9A854D22253EE1F8008C9BBF /* BB9EToy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BB9EToy.swift; sourceTree = "<group>"; };
-		9A854D23253EE1F8008C9BBF /* SpheroV2Toy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpheroV2Toy.swift; sourceTree = "<group>"; };
-		9A854D24253EE1F8008C9BBF /* BoltToy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoltToy.swift; sourceTree = "<group>"; };
-		9A854D25253EE1F8008C9BBF /* R2D2Toy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R2D2Toy.swift; sourceTree = "<group>"; };
-		9A854D26253EE1F9008C9BBF /* SpheroV2ToyCore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpheroV2ToyCore.swift; sourceTree = "<group>"; };
-		9A854D27253EE1F9008C9BBF /* MiniToy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MiniToy.swift; sourceTree = "<group>"; };
-		9A854D28253EE1F9008C9BBF /* ToyProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToyProtocols.swift; sourceTree = "<group>"; };
-		9A854D29253EE1F9008C9BBF /* CBUUID+SpheroUUIDs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CBUUID+SpheroUUIDs.swift"; sourceTree = "<group>"; };
-		9A854D2B253EE1F9008C9BBF /* ToyBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToyBox.swift; sourceTree = "<group>"; };
-		9A854D2C253EE1F9008C9BBF /* Color+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+Utils.swift"; sourceTree = "<group>"; };
-		9A854D2E253EE1F9008C9BBF /* SensorUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SensorUtils.swift; sourceTree = "<group>"; };
-		9A854D30253EE1F9008C9BBF /* CommandOperationV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommandOperationV2.swift; sourceTree = "<group>"; };
-		9A854D31253EE1F9008C9BBF /* CommandSequencerV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommandSequencerV2.swift; sourceTree = "<group>"; };
-		9A854D32253EE1F9008C9BBF /* CommandV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommandV2.swift; sourceTree = "<group>"; };
-		9A854D34253EE1F9008C9BBF /* VersionsCommandResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VersionsCommandResponse.swift; sourceTree = "<group>"; };
-		9A854D35253EE1F9008C9BBF /* ShouldActionCompleteResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShouldActionCompleteResponse.swift; sourceTree = "<group>"; };
-		9A854D36253EE1F9008C9BBF /* SensorCommandResponseV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SensorCommandResponseV2.swift; sourceTree = "<group>"; };
-		9A854D37253EE1F9008C9BBF /* SensorCommandResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SensorCommandResponse.swift; sourceTree = "<group>"; };
-		9A854D38253EE1F9008C9BBF /* SensorMaskCommandResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SensorMaskCommandResponse.swift; sourceTree = "<group>"; };
-		9A854D39253EE1F9008C9BBF /* PowerStateResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PowerStateResponse.swift; sourceTree = "<group>"; };
-		9A854D3A253EE1F9008C9BBF /* CollisionData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollisionData.swift; sourceTree = "<group>"; };
-		9A854D3C253EE1F9008C9BBF /* CommandV1Operation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommandV1Operation.swift; sourceTree = "<group>"; };
-		9A854D3D253EE1F9008C9BBF /* CommandV1Sequencer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommandV1Sequencer.swift; sourceTree = "<group>"; };
-		9A854D3E253EE1F9008C9BBF /* CommandV1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommandV1.swift; sourceTree = "<group>"; };
-		9A854D3F253EE1F9008C9BBF /* Double+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Double+Utils.swift"; sourceTree = "<group>"; };
-		9A854D40253EE1F9008C9BBF /* String+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Utils.swift"; sourceTree = "<group>"; };
-		9A854D42253EE1F9008C9BBF /* SpheroTP1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpheroTP1ViewController.swift; sourceTree = "<group>"; };
-		9A854D43253EE1F9008C9BBF /* SpheroLedsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpheroLedsViewController.swift; sourceTree = "<group>"; };
-		9A854D45253EE1F9008C9BBF /* SpheroDirectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpheroDirectionViewController.swift; sourceTree = "<group>"; };
-		9A854D46253EE1F9008C9BBF /* SpheroAimingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpheroAimingViewController.swift; sourceTree = "<group>"; };
+		9A312446255391C200A1C7A8 /* SpeechManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechManager.swift; sourceTree = "<group>"; };
+		9A312448255391D100A1C7A8 /* MovementManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovementManager.swift; sourceTree = "<group>"; };
+		9A31244B2553925300A1C7A8 /* Movement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movement.swift; sourceTree = "<group>"; };
 		9A854D7B253EE34F008C9BBF /* VideoPreviewer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = VideoPreviewer.framework; sourceTree = "<group>"; };
-		9A854D88253EFA9D008C9BBF /* SocketIOManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketIOManager.swift; sourceTree = "<group>"; };
 		9A854D8E253F0169008C9BBF /* UIImageExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtensions.swift; sourceTree = "<group>"; };
 		9A854D90253F0182008C9BBF /* UIViewControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtensions.swift; sourceTree = "<group>"; };
 		9A854D92253F01D1008C9BBF /* delay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = delay.swift; sourceTree = "<group>"; };
 		9A854D94253F01E5008C9BBF /* getDocumentsDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getDocumentsDirectory.swift; sourceTree = "<group>"; };
+		9A854EEF253F18D4008C9BBF /* ConnectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectionViewController.swift; sourceTree = "<group>"; };
 		9A91D2E8253C7D1900C89716 /* quarder-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "quarder-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A91D2EB253C7D1900C89716 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9A91D2ED253C7D1900C89716 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9A91D2EF253C7D1900C89716 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9A91D2F2253C7D1900C89716 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9A91D2F4253C7D1A00C89716 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A91D2F7253C7D1A00C89716 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A91D2F9253C7D1A00C89716 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AB5FB24255234F900DA5663 /* SaveImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveImageViewController.swift; sourceTree = "<group>"; };
+		9AB5FB2B255246B400DA5663 /* Scenar.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Scenar.json; sourceTree = "<group>"; };
+		9AB5FB2D255246B400DA5663 /* GimbalManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GimbalManager.swift; sourceTree = "<group>"; };
+		9AB5FB32255246B400DA5663 /* quarder_model 2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "quarder_model 2.mlmodel"; sourceTree = "<group>"; };
+		9AB5FB34255246B400DA5663 /* ImageRecognition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageRecognition.swift; sourceTree = "<group>"; };
+		9AB5FB38255246B400DA5663 /* LocationDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationDelegate.swift; sourceTree = "<group>"; };
+		9AB5FB39255246B400DA5663 /* CalibrationAndHeadingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalibrationAndHeadingViewController.swift; sourceTree = "<group>"; };
+		9AB5FB3B255246B400DA5663 /* BasicMove.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicMove.swift; sourceTree = "<group>"; };
+		9AB5FB3D255246B400DA5663 /* SparkMovementManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SparkMovementManager.swift; sourceTree = "<group>"; };
+		9AB5FB3E255246B400DA5663 /* GenericMovementManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericMovementManager.swift; sourceTree = "<group>"; };
+		9AB5FB3F255246B400DA5663 /* TP1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TP1ViewController.swift; sourceTree = "<group>"; };
+		9AB5FB40255246B400DA5663 /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		9AB5FB41255246B400DA5663 /* SpeechViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeechViewController.swift; sourceTree = "<group>"; };
+		9AB5FB43255246B400DA5663 /* ProductCommunicationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductCommunicationManager.swift; sourceTree = "<group>"; };
+		9AB5FB45255246B400DA5663 /* Spark.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Spark.swift; sourceTree = "<group>"; };
+		9AB5FB47255246B400DA5663 /* DirectionSequence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DirectionSequence.swift; sourceTree = "<group>"; };
+		9AB5FB48255246B400DA5663 /* OldMovement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OldMovement.swift; sourceTree = "<group>"; };
+		9AB5FB49255246B400DA5663 /* MovingManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovingManager.swift; sourceTree = "<group>"; };
+		9AB5FB4A255246B400DA5663 /* CGPoints+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGPoints+Extensions.swift"; sourceTree = "<group>"; };
+		9AB5FB4B255246B400DA5663 /* AutoMoveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoMoveViewController.swift; sourceTree = "<group>"; };
+		9AB5FB4C255246B400DA5663 /* AccelerometerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccelerometerViewController.swift; sourceTree = "<group>"; };
+		9AB5FB852553837A00DA5663 /* FlightModeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightModeViewController.swift; sourceTree = "<group>"; };
+		9AB5FB8725538B1800DA5663 /* ManualFlightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManualFlightViewController.swift; sourceTree = "<group>"; };
+		9AB5FB8925538B2500DA5663 /* AutoFlightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoFlightViewController.swift; sourceTree = "<group>"; };
 		A3391A347601FA22B86D9591 /* Pods_quarder_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_quarder_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E27B179ABC826B17D9262730 /* Pods-quarder-app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-quarder-app.release.xcconfig"; path = "Target Support Files/Pods-quarder-app/Pods-quarder-app.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -230,271 +142,40 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		9A854CCF253EE1CC008C9BBF /* SparkStarter */ = {
+		9A312445255391B000A1C7A8 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
-				9A854D85253EFA76008C9BBF /* Communication */,
-				9A854CD0253EE1CC008C9BBF /* Scenar.json */,
-				9A854CD1253EE1CC008C9BBF /* Gimbal */,
-				9A854CD3253EE1CC008C9BBF /* MovementLevelOneViewController.swift */,
-				9A854CD4253EE1CC008C9BBF /* TakeOffAndLandingViewController.swift */,
-				9A854CD5253EE1CC008C9BBF /* IA */,
-				9A854CDA253EE1CC008C9BBF /* Heading+Calibration */,
-				9A854CDD253EE1CC008C9BBF /* TP */,
-				9A854CE3253EE1CC008C9BBF /* CameraViewController.swift */,
-				9A854CE4253EE1CC008C9BBF /* HelpersFromSample */,
-				9A854CE6253EE1CC008C9BBF /* Automatic */,
-				9A854CEE253EE1CD008C9BBF /* AccelerometerViewController.swift */,
+				9A312446255391C200A1C7A8 /* SpeechManager.swift */,
+				9A312448255391D100A1C7A8 /* MovementManager.swift */,
 			);
-			name = SparkStarter;
-			path = "../../../Downloads/SparkStarterKitForStudents-master 2/SparkPerso/SparkPerso/SparkStarter";
+			path = Managers;
 			sourceTree = "<group>";
 		};
-		9A854CD1253EE1CC008C9BBF /* Gimbal */ = {
+		9A31244A2553924600A1C7A8 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				9A854CD2253EE1CC008C9BBF /* GimbalManager.swift */,
+				9A31244B2553925300A1C7A8 /* Movement.swift */,
 			);
-			path = Gimbal;
+			path = Models;
 			sourceTree = "<group>";
 		};
-		9A854CD5253EE1CC008C9BBF /* IA */ = {
+		9A31244D2553AF9600A1C7A8 /* Flight */ = {
 			isa = PBXGroup;
 			children = (
-				9A854CD7253EE1CC008C9BBF /* MobileNet.mlmodel */,
-				9A854CD8253EE1CC008C9BBF /* ImageRecognition.swift */,
-				9A854CD9253EE1CC008C9BBF /* ShapeClassifier 1.mlmodel */,
+				9AB5FB852553837A00DA5663 /* FlightModeViewController.swift */,
+				9AB5FB8725538B1800DA5663 /* ManualFlightViewController.swift */,
+				9AB5FB8925538B2500DA5663 /* AutoFlightViewController.swift */,
 			);
-			path = IA;
+			path = Flight;
 			sourceTree = "<group>";
 		};
-		9A854CDA253EE1CC008C9BBF /* Heading+Calibration */ = {
+		9A31244E2553AF9E00A1C7A8 /* Image */ = {
 			isa = PBXGroup;
 			children = (
-				9A854CDB253EE1CC008C9BBF /* LocationDelegate.swift */,
-				9A854CDC253EE1CC008C9BBF /* CalibrationAndHeadingViewController.swift */,
+				9AB5FB40255246B400DA5663 /* CameraViewController.swift */,
+				9AB5FB24255234F900DA5663 /* SaveImageViewController.swift */,
 			);
-			path = "Heading+Calibration";
-			sourceTree = "<group>";
-		};
-		9A854CDD253EE1CC008C9BBF /* TP */ = {
-			isa = PBXGroup;
-			children = (
-				9A854CDE253EE1CC008C9BBF /* BasicMove.swift */,
-				9A854CDF253EE1CC008C9BBF /* SpheroMovementManager.swift */,
-				9A854CE0253EE1CC008C9BBF /* SparkMovementManager.swift */,
-				9A854CE1253EE1CC008C9BBF /* GenericMovementManager.swift */,
-				9A854CE2253EE1CC008C9BBF /* TP1ViewController.swift */,
-			);
-			path = TP;
-			sourceTree = "<group>";
-		};
-		9A854CE4253EE1CC008C9BBF /* HelpersFromSample */ = {
-			isa = PBXGroup;
-			children = (
-				9A854CE5253EE1CC008C9BBF /* ProductCommunicationManager.swift */,
-			);
-			path = HelpersFromSample;
-			sourceTree = "<group>";
-		};
-		9A854CE6253EE1CC008C9BBF /* Automatic */ = {
-			isa = PBXGroup;
-			children = (
-				9A854CE7253EE1CD008C9BBF /* Spark.swift */,
-				9A854CE8253EE1CD008C9BBF /* Moving */,
-				9A854CED253EE1CD008C9BBF /* AutoMoveViewController.swift */,
-			);
-			path = Automatic;
-			sourceTree = "<group>";
-		};
-		9A854CE8253EE1CD008C9BBF /* Moving */ = {
-			isa = PBXGroup;
-			children = (
-				9A854CE9253EE1CD008C9BBF /* DirectionSequence.swift */,
-				9A854CEA253EE1CD008C9BBF /* Movement.swift */,
-				9A854CEB253EE1CD008C9BBF /* MovingManager.swift */,
-				9A854CEC253EE1CD008C9BBF /* CGPoints+Extensions.swift */,
-			);
-			path = Moving;
-			sourceTree = "<group>";
-		};
-		9A854D0B253EE1F8008C9BBF /* SpheroStarter */ = {
-			isa = PBXGroup;
-			children = (
-				9A854D0C253EE1F8008C9BBF /* LocatorViewController.swift */,
-				9A854D0D253EE1F8008C9BBF /* Graph */,
-				9A854D11253EE1F8008C9BBF /* SpheroStatusViewController.swift */,
-				9A854D12253EE1F8008C9BBF /* SpheroSDK */,
-				9A854D41253EE1F9008C9BBF /* TP */,
-				9A854D43253EE1F9008C9BBF /* SpheroLedsViewController.swift */,
-				9A854D45253EE1F9008C9BBF /* SpheroDirectionViewController.swift */,
-				9A854D46253EE1F9008C9BBF /* SpheroAimingViewController.swift */,
-			);
-			path = SpheroStarter;
-			sourceTree = "<group>";
-		};
-		9A854D0D253EE1F8008C9BBF /* Graph */ = {
-			isa = PBXGroup;
-			children = (
-				9A854D0E253EE1F8008C9BBF /* GraphView.swift */,
-				9A854D0F253EE1F8008C9BBF /* CGContext+GraphLines.swift */,
-				9A854D10253EE1F8008C9BBF /* GraphSegment.swift */,
-			);
-			path = Graph;
-			sourceTree = "<group>";
-		};
-		9A854D12253EE1F8008C9BBF /* SpheroSDK */ = {
-			isa = PBXGroup;
-			children = (
-				9A854D13253EE1F8008C9BBF /* SharedToyBox.swift */,
-				9A854D14253EE1F8008C9BBF /* SDK */,
-			);
-			path = SpheroSDK;
-			sourceTree = "<group>";
-		};
-		9A854D14253EE1F8008C9BBF /* SDK */ = {
-			isa = PBXGroup;
-			children = (
-				9A854D15253EE1F8008C9BBF /* SDKUtils.swift */,
-				9A854D16253EE1F8008C9BBF /* BLE */,
-				9A854D2C253EE1F9008C9BBF /* Color+Utils.swift */,
-				9A854D2D253EE1F9008C9BBF /* Commands */,
-				9A854D3F253EE1F9008C9BBF /* Double+Utils.swift */,
-				9A854D40253EE1F9008C9BBF /* String+Utils.swift */,
-			);
-			path = SDK;
-			sourceTree = "<group>";
-		};
-		9A854D16253EE1F8008C9BBF /* BLE */ = {
-			isa = PBXGroup;
-			children = (
-				9A854D17253EE1F8008C9BBF /* Toy */,
-				9A854D29253EE1F9008C9BBF /* CBUUID+SpheroUUIDs.swift */,
-				9A854D2A253EE1F9008C9BBF /* ToyBox */,
-			);
-			path = BLE;
-			sourceTree = "<group>";
-		};
-		9A854D17253EE1F8008C9BBF /* Toy */ = {
-			isa = PBXGroup;
-			children = (
-				9A854D18253EE1F8008C9BBF /* Toy.swift */,
-				9A854D19253EE1F8008C9BBF /* SensorControl.swift */,
-				9A854D1A253EE1F8008C9BBF /* V1Toys */,
-				9A854D20253EE1F8008C9BBF /* V2Toys */,
-				9A854D28253EE1F9008C9BBF /* ToyProtocols.swift */,
-			);
-			path = Toy;
-			sourceTree = "<group>";
-		};
-		9A854D1A253EE1F8008C9BBF /* V1Toys */ = {
-			isa = PBXGroup;
-			children = (
-				9A854D1B253EE1F8008C9BBF /* SPRKToy.swift */,
-				9A854D1C253EE1F8008C9BBF /* SensorControlV1.swift */,
-				9A854D1D253EE1F8008C9BBF /* SpheroV1Toy.swift */,
-				9A854D1E253EE1F8008C9BBF /* SpheroV1ToyCore.swift */,
-				9A854D1F253EE1F8008C9BBF /* BB8Toy.swift */,
-			);
-			path = V1Toys;
-			sourceTree = "<group>";
-		};
-		9A854D20253EE1F8008C9BBF /* V2Toys */ = {
-			isa = PBXGroup;
-			children = (
-				9A854D21253EE1F8008C9BBF /* SensorControlV2.swift */,
-				9A854D22253EE1F8008C9BBF /* BB9EToy.swift */,
-				9A854D23253EE1F8008C9BBF /* SpheroV2Toy.swift */,
-				9A854D24253EE1F8008C9BBF /* BoltToy.swift */,
-				9A854D25253EE1F8008C9BBF /* R2D2Toy.swift */,
-				9A854D26253EE1F9008C9BBF /* SpheroV2ToyCore.swift */,
-				9A854D27253EE1F9008C9BBF /* MiniToy.swift */,
-			);
-			path = V2Toys;
-			sourceTree = "<group>";
-		};
-		9A854D2A253EE1F9008C9BBF /* ToyBox */ = {
-			isa = PBXGroup;
-			children = (
-				9A854D2B253EE1F9008C9BBF /* ToyBox.swift */,
-			);
-			path = ToyBox;
-			sourceTree = "<group>";
-		};
-		9A854D2D253EE1F9008C9BBF /* Commands */ = {
-			isa = PBXGroup;
-			children = (
-				9A854D2E253EE1F9008C9BBF /* SensorUtils.swift */,
-				9A854D2F253EE1F9008C9BBF /* CommandV2 */,
-				9A854D33253EE1F9008C9BBF /* CommandResponses */,
-				9A854D3B253EE1F9008C9BBF /* CommandV1 */,
-			);
-			path = Commands;
-			sourceTree = "<group>";
-		};
-		9A854D2F253EE1F9008C9BBF /* CommandV2 */ = {
-			isa = PBXGroup;
-			children = (
-				9A854D30253EE1F9008C9BBF /* CommandOperationV2.swift */,
-				9A854D31253EE1F9008C9BBF /* CommandSequencerV2.swift */,
-				9A854D32253EE1F9008C9BBF /* CommandV2.swift */,
-			);
-			path = CommandV2;
-			sourceTree = "<group>";
-		};
-		9A854D33253EE1F9008C9BBF /* CommandResponses */ = {
-			isa = PBXGroup;
-			children = (
-				9A854D34253EE1F9008C9BBF /* VersionsCommandResponse.swift */,
-				9A854D35253EE1F9008C9BBF /* ShouldActionCompleteResponse.swift */,
-				9A854D36253EE1F9008C9BBF /* SensorCommandResponseV2.swift */,
-				9A854D37253EE1F9008C9BBF /* SensorCommandResponse.swift */,
-				9A854D38253EE1F9008C9BBF /* SensorMaskCommandResponse.swift */,
-				9A854D39253EE1F9008C9BBF /* PowerStateResponse.swift */,
-				9A854D3A253EE1F9008C9BBF /* CollisionData.swift */,
-			);
-			path = CommandResponses;
-			sourceTree = "<group>";
-		};
-		9A854D3B253EE1F9008C9BBF /* CommandV1 */ = {
-			isa = PBXGroup;
-			children = (
-				9A854D3C253EE1F9008C9BBF /* CommandV1Operation.swift */,
-				9A854D3D253EE1F9008C9BBF /* CommandV1Sequencer.swift */,
-				9A854D3E253EE1F9008C9BBF /* CommandV1.swift */,
-			);
-			path = CommandV1;
-			sourceTree = "<group>";
-		};
-		9A854D41253EE1F9008C9BBF /* TP */ = {
-			isa = PBXGroup;
-			children = (
-				9A854D42253EE1F9008C9BBF /* SpheroTP1ViewController.swift */,
-			);
-			path = TP;
-			sourceTree = "<group>";
-		};
-		9A854D85253EFA76008C9BBF /* Communication */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Communication;
-			sourceTree = "<group>";
-		};
-		9A854D86253EFA88008C9BBF /* Communication */ = {
-			isa = PBXGroup;
-			children = (
-				9A854D87253EFA8B008C9BBF /* SocketIO */,
-			);
-			path = Communication;
-			sourceTree = "<group>";
-		};
-		9A854D87253EFA8B008C9BBF /* SocketIO */ = {
-			isa = PBXGroup;
-			children = (
-				9A854D88253EFA9D008C9BBF /* SocketIOManager.swift */,
-			);
-			path = SocketIO;
+			path = Image;
 			sourceTree = "<group>";
 		};
 		9A854D8A253F0013008C9BBF /* Extensions */ = {
@@ -518,9 +199,10 @@
 		9A854D8D253F003E008C9BBF /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				9A91D2EF253C7D1900C89716 /* ViewController.swift */,
-				9A854CC6253EE0C4008C9BBF /* MainViewController.swift */,
-				9A4BB5BC253ED5B500A91817 /* ConnectionViewController.swift */,
+				9A31244E2553AF9E00A1C7A8 /* Image */,
+				9A31244D2553AF9600A1C7A8 /* Flight */,
+				9A854EEF253F18D4008C9BBF /* ConnectionViewController.swift */,
+				9AB5FB41255246B400DA5663 /* SpeechViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -546,11 +228,11 @@
 		9A91D2EA253C7D1900C89716 /* quarder-app */ = {
 			isa = PBXGroup;
 			children = (
+				9AB5FB2A255246B400DA5663 /* SparkStarter */,
 				9A854D8C253F002D008C9BBF /* Utils */,
+				9A31244A2553924600A1C7A8 /* Models */,
+				9A312445255391B000A1C7A8 /* Managers */,
 				9A854D8A253F0013008C9BBF /* Extensions */,
-				9A854D86253EFA88008C9BBF /* Communication */,
-				9A854D0B253EE1F8008C9BBF /* SpheroStarter */,
-				9A854CCF253EE1CC008C9BBF /* SparkStarter */,
 				9A854D8D253F003E008C9BBF /* ViewControllers */,
 				9A91D2EB253C7D1900C89716 /* AppDelegate.swift */,
 				9A91D2ED253C7D1900C89716 /* SceneDelegate.swift */,
@@ -560,6 +242,87 @@
 				9A91D2F4253C7D1A00C89716 /* Assets.xcassets */,
 			);
 			path = "quarder-app";
+			sourceTree = "<group>";
+		};
+		9AB5FB2A255246B400DA5663 /* SparkStarter */ = {
+			isa = PBXGroup;
+			children = (
+				9AB5FB2B255246B400DA5663 /* Scenar.json */,
+				9AB5FB2C255246B400DA5663 /* Gimbal */,
+				9AB5FB31255246B400DA5663 /* IA */,
+				9AB5FB37255246B400DA5663 /* Heading+Calibration */,
+				9AB5FB3A255246B400DA5663 /* TP */,
+				9AB5FB42255246B400DA5663 /* HelpersFromSample */,
+				9AB5FB44255246B400DA5663 /* Automatic */,
+				9AB5FB4C255246B400DA5663 /* AccelerometerViewController.swift */,
+			);
+			path = SparkStarter;
+			sourceTree = "<group>";
+		};
+		9AB5FB2C255246B400DA5663 /* Gimbal */ = {
+			isa = PBXGroup;
+			children = (
+				9AB5FB2D255246B400DA5663 /* GimbalManager.swift */,
+			);
+			path = Gimbal;
+			sourceTree = "<group>";
+		};
+		9AB5FB31255246B400DA5663 /* IA */ = {
+			isa = PBXGroup;
+			children = (
+				9AB5FB32255246B400DA5663 /* quarder_model 2.mlmodel */,
+				9AB5FB34255246B400DA5663 /* ImageRecognition.swift */,
+			);
+			path = IA;
+			sourceTree = "<group>";
+		};
+		9AB5FB37255246B400DA5663 /* Heading+Calibration */ = {
+			isa = PBXGroup;
+			children = (
+				9AB5FB38255246B400DA5663 /* LocationDelegate.swift */,
+				9AB5FB39255246B400DA5663 /* CalibrationAndHeadingViewController.swift */,
+			);
+			path = "Heading+Calibration";
+			sourceTree = "<group>";
+		};
+		9AB5FB3A255246B400DA5663 /* TP */ = {
+			isa = PBXGroup;
+			children = (
+				9AB5FB3B255246B400DA5663 /* BasicMove.swift */,
+				9AB5FB3D255246B400DA5663 /* SparkMovementManager.swift */,
+				9AB5FB3E255246B400DA5663 /* GenericMovementManager.swift */,
+				9AB5FB3F255246B400DA5663 /* TP1ViewController.swift */,
+			);
+			path = TP;
+			sourceTree = "<group>";
+		};
+		9AB5FB42255246B400DA5663 /* HelpersFromSample */ = {
+			isa = PBXGroup;
+			children = (
+				9AB5FB43255246B400DA5663 /* ProductCommunicationManager.swift */,
+			);
+			path = HelpersFromSample;
+			sourceTree = "<group>";
+		};
+		9AB5FB44255246B400DA5663 /* Automatic */ = {
+			isa = PBXGroup;
+			children = (
+				9AB5FB45255246B400DA5663 /* Spark.swift */,
+				9AB5FB46255246B400DA5663 /* Moving */,
+				9AB5FB4B255246B400DA5663 /* AutoMoveViewController.swift */,
+			);
+			path = Automatic;
+			sourceTree = "<group>";
+		};
+		9AB5FB46255246B400DA5663 /* Moving */ = {
+			isa = PBXGroup;
+			children = (
+				9AB5FB47255246B400DA5663 /* DirectionSequence.swift */,
+				9AB5FB48255246B400DA5663 /* OldMovement.swift */,
+				9AB5FB49255246B400DA5663 /* MovingManager.swift */,
+				9AB5FB4A255246B400DA5663 /* CGPoints+Extensions.swift */,
+			);
+			path = Moving;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -631,7 +394,7 @@
 				9A91D2F8253C7D1A00C89716 /* LaunchScreen.storyboard in Resources */,
 				9A91D2F5253C7D1A00C89716 /* Assets.xcassets in Resources */,
 				9A91D2F3253C7D1900C89716 /* Main.storyboard in Resources */,
-				9A854CF1253EE1CD008C9BBF /* Scenar.json in Resources */,
+				9AB5FB4E255246B400DA5663 /* Scenar.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -684,83 +447,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A854D6D253EE1F9008C9BBF /* CommandV1.swift in Sources */,
-				9A854CFF253EE1CD008C9BBF /* TP1ViewController.swift in Sources */,
-				9A854D03253EE1CD008C9BBF /* DirectionSequence.swift in Sources */,
-				9A854D6B253EE1F9008C9BBF /* CommandV1Operation.swift in Sources */,
-				9A854D65253EE1F9008C9BBF /* ShouldActionCompleteResponse.swift in Sources */,
-				9A854D08253EE1CD008C9BBF /* AccelerometerViewController.swift in Sources */,
-				9A854D70253EE1F9008C9BBF /* SpheroTP1ViewController.swift in Sources */,
-				9A854D55253EE1F9008C9BBF /* SensorControlV2.swift in Sources */,
-				9A854D00253EE1CD008C9BBF /* CameraViewController.swift in Sources */,
-				9A854CF9253EE1CD008C9BBF /* LocationDelegate.swift in Sources */,
-				9A854CF7253EE1CD008C9BBF /* ImageRecognition.swift in Sources */,
-				9A854D4A253EE1F9008C9BBF /* GraphSegment.swift in Sources */,
-				9A854D5A253EE1F9008C9BBF /* SpheroV2ToyCore.swift in Sources */,
+				9A312449255391D100A1C7A8 /* MovementManager.swift in Sources */,
+				9AB5FB61255246B400DA5663 /* ProductCommunicationManager.swift in Sources */,
 				9A854D95253F01E5008C9BBF /* getDocumentsDirectory.swift in Sources */,
-				9A854D48253EE1F9008C9BBF /* GraphView.swift in Sources */,
-				9A854D4B253EE1F9008C9BBF /* SpheroStatusViewController.swift in Sources */,
-				9A854CFE253EE1CD008C9BBF /* GenericMovementManager.swift in Sources */,
 				9A854D91253F0182008C9BBF /* UIViewControllerExtensions.swift in Sources */,
-				9A854D5E253EE1F9008C9BBF /* ToyBox.swift in Sources */,
-				9A854CF3253EE1CD008C9BBF /* MovementLevelOneViewController.swift in Sources */,
-				9A854D53253EE1F9008C9BBF /* SpheroV1ToyCore.swift in Sources */,
-				9A854D69253EE1F9008C9BBF /* PowerStateResponse.swift in Sources */,
-				9A4BB5BD253ED5B800A91817 /* ConnectionViewController.swift in Sources */,
-				9A854D59253EE1F9008C9BBF /* R2D2Toy.swift in Sources */,
-				9A91D2F0253C7D1900C89716 /* ViewController.swift in Sources */,
 				9A854D8F253F0169008C9BBF /* UIImageExtensions.swift in Sources */,
 				9A91D2EC253C7D1900C89716 /* AppDelegate.swift in Sources */,
-				9A854D01253EE1CD008C9BBF /* ProductCommunicationManager.swift in Sources */,
-				9A854D71253EE1F9008C9BBF /* SpheroLedsViewController.swift in Sources */,
-				9A854D60253EE1F9008C9BBF /* SensorUtils.swift in Sources */,
-				9A854D64253EE1F9008C9BBF /* VersionsCommandResponse.swift in Sources */,
-				9A854CFA253EE1CD008C9BBF /* CalibrationAndHeadingViewController.swift in Sources */,
-				9A854D4D253EE1F9008C9BBF /* SDKUtils.swift in Sources */,
-				9A854D5D253EE1F9008C9BBF /* CBUUID+SpheroUUIDs.swift in Sources */,
-				9A854CFB253EE1CD008C9BBF /* BasicMove.swift in Sources */,
-				9A854D89253EFA9D008C9BBF /* SocketIOManager.swift in Sources */,
+				9AB5FB67255246B400DA5663 /* AutoMoveViewController.swift in Sources */,
+				9AB5FB68255246B400DA5663 /* AccelerometerViewController.swift in Sources */,
+				9AB5FB862553837A00DA5663 /* FlightModeViewController.swift in Sources */,
+				9AB5FB60255246B400DA5663 /* SpeechViewController.swift in Sources */,
+				9AB5FB66255246B400DA5663 /* CGPoints+Extensions.swift in Sources */,
+				9AB5FB5F255246B400DA5663 /* CameraViewController.swift in Sources */,
 				9A91D2EE253C7D1900C89716 /* SceneDelegate.swift in Sources */,
-				9A854D07253EE1CD008C9BBF /* AutoMoveViewController.swift in Sources */,
-				9A854CC7253EE0C4008C9BBF /* MainViewController.swift in Sources */,
-				9A854D6E253EE1F9008C9BBF /* Double+Utils.swift in Sources */,
-				9A854D5B253EE1F9008C9BBF /* MiniToy.swift in Sources */,
-				9A854CF6253EE1CD008C9BBF /* MobileNet.mlmodel in Sources */,
-				9A854D66253EE1F9008C9BBF /* SensorCommandResponseV2.swift in Sources */,
-				9A854CFD253EE1CD008C9BBF /* SparkMovementManager.swift in Sources */,
-				9A854CF8253EE1CD008C9BBF /* ShapeClassifier 1.mlmodel in Sources */,
-				9A854D6F253EE1F9008C9BBF /* String+Utils.swift in Sources */,
-				9A854D4F253EE1F9008C9BBF /* SensorControl.swift in Sources */,
-				9A854D51253EE1F9008C9BBF /* SensorControlV1.swift in Sources */,
-				9A854D57253EE1F9008C9BBF /* SpheroV2Toy.swift in Sources */,
-				9A854D4E253EE1F9008C9BBF /* Toy.swift in Sources */,
-				9A854D68253EE1F9008C9BBF /* SensorMaskCommandResponse.swift in Sources */,
-				9A854D67253EE1F9008C9BBF /* SensorCommandResponse.swift in Sources */,
-				9A854D6C253EE1F9008C9BBF /* CommandV1Sequencer.swift in Sources */,
-				9A854D63253EE1F9008C9BBF /* CommandV2.swift in Sources */,
-				9A854D52253EE1F9008C9BBF /* SpheroV1Toy.swift in Sources */,
-				9A854D6A253EE1F9008C9BBF /* CollisionData.swift in Sources */,
-				9A854CF2253EE1CD008C9BBF /* GimbalManager.swift in Sources */,
-				9A854D4C253EE1F9008C9BBF /* SharedToyBox.swift in Sources */,
-				9A854CFC253EE1CD008C9BBF /* SpheroMovementManager.swift in Sources */,
-				9A854D58253EE1F9008C9BBF /* BoltToy.swift in Sources */,
-				9A854D5C253EE1F9008C9BBF /* ToyProtocols.swift in Sources */,
-				9A854D05253EE1CD008C9BBF /* MovingManager.swift in Sources */,
-				9A854D04253EE1CD008C9BBF /* Movement.swift in Sources */,
-				9A854D73253EE1F9008C9BBF /* SpheroDirectionViewController.swift in Sources */,
-				9A854CF4253EE1CD008C9BBF /* TakeOffAndLandingViewController.swift in Sources */,
-				9A854D56253EE1F9008C9BBF /* BB9EToy.swift in Sources */,
-				9A854D49253EE1F9008C9BBF /* CGContext+GraphLines.swift in Sources */,
-				9A854D47253EE1F9008C9BBF /* LocatorViewController.swift in Sources */,
+				9AB5FB62255246B400DA5663 /* Spark.swift in Sources */,
+				9AB5FB63255246B400DA5663 /* DirectionSequence.swift in Sources */,
+				9AB5FB58255246B400DA5663 /* LocationDelegate.swift in Sources */,
+				9AB5FB5D255246B400DA5663 /* GenericMovementManager.swift in Sources */,
+				9AB5FB25255234F900DA5663 /* SaveImageViewController.swift in Sources */,
+				9AB5FB5A255246B400DA5663 /* BasicMove.swift in Sources */,
+				9AB5FB5C255246B400DA5663 /* SparkMovementManager.swift in Sources */,
+				9A312447255391C200A1C7A8 /* SpeechManager.swift in Sources */,
+				9AB5FB53255246B400DA5663 /* quarder_model 2.mlmodel in Sources */,
+				9AB5FB65255246B400DA5663 /* MovingManager.swift in Sources */,
+				9A31244C2553925300A1C7A8 /* Movement.swift in Sources */,
+				9AB5FB59255246B400DA5663 /* CalibrationAndHeadingViewController.swift in Sources */,
+				9AB5FB4F255246B400DA5663 /* GimbalManager.swift in Sources */,
 				9A854D93253F01D1008C9BBF /* delay.swift in Sources */,
-				9A854D06253EE1CD008C9BBF /* CGPoints+Extensions.swift in Sources */,
-				9A854D61253EE1F9008C9BBF /* CommandOperationV2.swift in Sources */,
-				9A854D54253EE1F9008C9BBF /* BB8Toy.swift in Sources */,
-				9A854D62253EE1F9008C9BBF /* CommandSequencerV2.swift in Sources */,
-				9A854D74253EE1F9008C9BBF /* SpheroAimingViewController.swift in Sources */,
-				9A854D02253EE1CD008C9BBF /* Spark.swift in Sources */,
-				9A854D50253EE1F9008C9BBF /* SPRKToy.swift in Sources */,
-				9A854D5F253EE1F9008C9BBF /* Color+Utils.swift in Sources */,
+				9AB5FB55255246B400DA5663 /* ImageRecognition.swift in Sources */,
+				9AB5FB5E255246B400DA5663 /* TP1ViewController.swift in Sources */,
+				9AB5FB8A25538B2500DA5663 /* AutoFlightViewController.swift in Sources */,
+				9AB5FB8825538B1800DA5663 /* ManualFlightViewController.swift in Sources */,
+				9AB5FB64255246B400DA5663 /* OldMovement.swift in Sources */,
+				9A854EF0253F18D4008C9BBF /* ConnectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -921,7 +640,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "quarder.quarder-app";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sparkperso.lou;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -947,7 +666,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "quarder.quarder-app";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sparkperso.lou;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

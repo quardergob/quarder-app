@@ -8,27 +8,17 @@
 
 import UIKit
 import DJISDK
-import SocketIO
 
 class ConnectionViewController: UIViewController {
     
-    // @IBOutlet weak var connectionStateSpheroLabel: UILabel!
-    //@IBOutlet weak var connectionStateLabel: UILabel!
-    let SSID = ""
-    
-    //@IBOutlet weak var socketIOConnectionStateLabel: UILabel!
+    @IBOutlet weak var sparkConnectionStateLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-        
     }
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        
-       
-        
     }
     
     override func viewDidDisappear(_ animated: Bool) {
@@ -37,24 +27,10 @@ class ConnectionViewController: UIViewController {
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-    @IBAction func socketIOConnectionButtonClicked(_ sender: Any) {
-        
     }
     
     @IBAction func connectionButtonClicked(_ sender: UIButton) {
         trySparkConnection()
-    }
-    
-    // SPHERO CONNECTION
-    @IBAction func connectionSpheroButtonClicked(_ sender: Any) {
-        SharedToyBox.instance.searchForBoltsNamed(["SB-A729"]) { err in
-            if err == nil {
-                //self.connectionStateSpheroLabel.text = "Connected"
-            }
-        }
     }
     
 }
@@ -82,7 +58,6 @@ extension ConnectionViewController {
             DJISDKManager.keyManager()?.getValueFor(connectedKey, withCompletion: { (value:DJIKeyedValue?, error:Error?) in
                 if let unwrappedValue = value {
                     if unwrappedValue.boolValue {
-                        // UI goes on MT.
                         DispatchQueue.main.async {
                             self.productConnected()
                         }
@@ -101,16 +76,15 @@ extension ConnectionViewController {
         }
      
         if let model = newProduct.model {
-            //self.connectionStateLabel.text = "\(model) is connected \n"
+            self.sparkConnectionStateLabel.text = "\(model) is connected \n"
             Spark.instance.airCraft = DJISDKManager.product() as? DJIAircraft
             
         }
         
-        //Updates the product's firmware version - COMING SOON
         newProduct.getFirmwarePackageVersion{ (version:String?, error:Error?) -> Void in
             
             if let _ = error {
-                //self.connectionStateLabel.text = self.connectionStateLabel.text! + "Firmware Package Version: \(version ?? "Unknown")"
+                self.sparkConnectionStateLabel.text = self.sparkConnectionStateLabel.text! + "Firmware Package Version: \(version ?? "Unknown")"
             }else{
                 
             }
@@ -121,7 +95,7 @@ extension ConnectionViewController {
     }
     
     func productDisconnected() {
-        //self.connectionStateLabel.text = "Disconnected"
+        self.sparkConnectionStateLabel.text = "Disconnected"
         print("Disconnected")
     }
 }

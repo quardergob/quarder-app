@@ -18,8 +18,18 @@
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
+	<key>DJISDKAppKey</key>
+	<string>289e9d5467edbf07880b6a34</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>Asking for Bluetooth</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Usage description</string>
+	<key>NSLocationUsageDescription</key>
+	<string>desc</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Usage description</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
@@ -62,15 +72,5 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
-	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-	<string>Usage description</string>
-	<key>NSBluetoothAlwaysUsageDescription</key>
-	<string>Asking for Bluetooth</string>
-	<key>NSLocationUsageDescription</key>
-	<string>desc</string>
-	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>Usage description</string>
-	<key>DJISDKAppKey</key>
-	<string>289e9d5467edbf07880b6a34</string>
 </dict>
 </plist>
